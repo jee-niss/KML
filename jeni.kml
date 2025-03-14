@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>jeni.kml</name>
+	<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7fffaa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff7fffff</color>
+			<width>1.7</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>ff7fffaa</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>J</name>
+		<snippet></snippet>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.19109783996736,43.01988801085061,39.99999999999999 -81.18783571224026,43.01459731486487,39.99999999999999 -81.18795929613842,43.01430614639864,39.99999999999999 -81.18812193996857,43.01411935469842,39.99999999999999 -81.1883473184883,43.01388872431,39.99999999999999 -81.18855480703057,43.01374334298599,39.99999999999999 -81.18860886006205,43.01368768662278,39.99999999999999 -81.18876011149185,43.01365180606282,39.99999999999999 -81.18895990233956,43.01365632587001,39.99999999999999 -81.18926706379276,43.01361501432993,39.99999999999999 -81.18982130555484,43.01366864361966,39.99999999999999 -81.19033032738498,43.01383017861999,39.99999999999999 -81.19062253719243,43.01397945605973,39.99999999999999 -81.19081915793369,43.01411060795275,39.99999999999999 -81.19105521722784,43.0142047106817,39.99999999999999 -81.1912358974858,43.0142598998599,39.99999999999999 -81.19161326612256,43.01403745671574,39.99999999999999 -81.19131295079534,43.01386506714318,39.99999999999999 -81.19112887719687,43.01375804465144,39.99999999999999 -81.19060056986082,43.01348446854304,39.99999999999999 -81.18988216973132,43.01320533856912,39.99999999999999 -81.18890175551861,43.01320745553701,39.99999999999999 -81.1879316175832,43.01351801991589,39.99999999999999 -81.18725943020611,43.01451100072777,39.99999999999999 -81.1904704887227,43.02004328256865,39.99999999999999 -81.19109783996736,43.01988801085061,39.99999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-81.1940156663607,43.0188015073377,39.99999999999999 -81.18756188644254,43.02069900099001,39.99999999999999 -81.18776053369314,43.02101950572067,39.99999999999999 -81.19418957639634,43.01912430684018,39.99999999999999 -81.1940156663607,43.0188015073377,39.99999999999999 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
